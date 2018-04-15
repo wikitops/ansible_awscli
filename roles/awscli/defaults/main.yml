@@ -1,0 +1,7 @@
+---
+
+awscli:
+  - username: "vagrant"
+    region: "eu-central-1"
+    aws_access_key_id: "AN_AWS_ACCESS_KEY"
+    aws_secret_access_key: "THE_SECRET_KEY_ASSOCIATED" # Do not forget to secure your password with vault
