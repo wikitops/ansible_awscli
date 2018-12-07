@@ -1,5 +1,10 @@
 ---
 
+###
+# AWSCLI
+###
+
+# AWS account
 awscli:
   - username: "vagrant"
     region: "eu-central-1"

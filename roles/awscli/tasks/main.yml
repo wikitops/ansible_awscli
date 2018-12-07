@@ -1,13 +1,6 @@
 ---
 
-- name: AWSCLI | Install prerequisites packages
-  apt:
-    name: "{{ item }}"
-    state: present
-  with_items:
-    - python-pip
-
-- name: AWSCLI | Install packages
+- name: AWSCLI | Installation
   pip:
     name: "{{ item }}"
     state: present
